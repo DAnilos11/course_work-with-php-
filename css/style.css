@@ -1,0 +1,168 @@
+body{
+    overflow-x:hidden;
+    position: relative;
+    background-color: #eeecec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.815);
+    z-index: 10;
+    font-family: 'Noto Sans', sans-serif;
+ }
+
+ @media(max-width:1680px){
+     .container_site{
+         max-width: 1400px;
+     }
+ }
+ @media(max-width:1410px){
+    .container_site{
+        max-width: 1200px;
+    }
+}
+@media(max-width:1210px){
+    .container_site{
+        max-width: 1000px;
+    }
+}
+@media(max-width:1010px){
+    .container_site{
+        max-width: 800px;
+    }
+}
+ .logotype{
+     margin-right: 10px;
+ }
+ .logotype:hover{
+     color:rgb(240, 157, 4);
+ }
+ .logotype:active{
+     color:#c7bcbcdc;
+ }
+ 
+ .navbar{
+     width: 100%;
+     height:70px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+     z-index: 9;
+ }
+ .navbar_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(205, 205, 219);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+    animation-name: show_navbar;
+    animation-duration: 0.5s;    
+ }
+ @keyframes show_navbar{
+     0%{
+         opacity: 0;
+         top: -70px;
+       } 
+         100%{
+         opacity: 1;
+         top: 0;
+       }
+ } 
+ .navbar .container{
+     height: inherit;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+ }
+ .navbar-menu{
+     list-style-type: none;
+     padding-left: 0;
+     margin-bottom: 0;
+     text-transform: uppercase;
+     
+ }
+ .navbar-menu li{
+     display: inline-block;
+ }
+ .navbar-menu li a{
+     font-weight: 500;
+     display: inline-block;
+     color:#000;
+     opacity: 0.6;
+     text-decoration: none;
+     padding: 10px;
+ }
+ .navbar-menu li a:hover{
+    color:rgb(240, 157, 4);
+    opacity: 0.9;
+ }
+ .navbar-menu li a:active{
+     color:#c7bcbcdc;
+     opacity: 0.9;
+  }
+ .navbar-wrap{
+     display: flex;
+     flex-flow: row nowrap;
+ }
+ .navbar-brand{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.navbar-brand:hover{
+    color:rgb(240, 157, 4);
+}
+.navbar-brand:active{
+    color:#c7bcbcdc;
+}
+.navbar-brandC{
+    vertical-align: super;
+    font-size: 14px;
+    font-weight: 500;
+}
+.bodystyle{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+b:first-child{
+    color:rgb(240, 157, 4);
+    font-size: 50px;
+} 
+p{
+    margin: 30px 300px 100px 300px; 
+}
+.main_img{
+    margin: 30px 450px 0px;
+}
+.indent{
+    background-color: rgb(255, 186, 37);
+    margin: 0px 0px;
+    width: 100%;
+    height: 10px;
+}
+.EKG{
+    background-color: #000;
+    padding-bottom: 50px;
+}
+.Describe_EKG{
+    color: #eeecec;
+    margin: 100px 300px 100px 280px;
+}
+
+.EKG_png{
+    margin: 50px 300px 0px 450px;
+}
+footer{
+    width: 100%;
+    height: 100%;
+    margin: 300px 0px 0px 0px;
+    padding: 20px 0px 10px 0px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#faf9f9+0,f4f4f4+8,f2f2f2+12,b7b7b7+26,6b6b6b+39,232323+49,161616+51,111111+60,000000+76,000000+91,000000+100 */
+background: rgb(250,249,249); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(250,249,249,1) 0%, rgba(244,244,244,1) 8%, rgba(242,242,242,1) 12%, rgba(183,183,183,1) 26%, rgba(107,107,107,1) 39%, rgba(35,35,35,1) 49%, rgba(22,22,22,1) 51%, rgba(17,17,17,1) 60%, rgba(0,0,0,1) 76%, rgba(0,0,0,1) 91%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(250,249,249,1) 0%,rgba(244,244,244,1) 8%,rgba(242,242,242,1) 12%,rgba(183,183,183,1) 26%,rgba(107,107,107,1) 39%,rgba(35,35,35,1) 49%,rgba(22,22,22,1) 51%,rgba(17,17,17,1) 60%,rgba(0,0,0,1) 76%,rgba(0,0,0,1) 91%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(250,249,249,1) 0%,rgba(244,244,244,1) 8%,rgba(242,242,242,1) 12%,rgba(183,183,183,1) 26%,rgba(107,107,107,1) 39%,rgba(35,35,35,1) 49%,rgba(22,22,22,1) 51%,rgba(17,17,17,1) 60%,rgba(0,0,0,1) 76%,rgba(0,0,0,1) 91%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#faf9f9', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+opacity: 0.95;
+border: none;
+}
